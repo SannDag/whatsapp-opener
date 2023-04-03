@@ -23,7 +23,7 @@ public class Gui extends JFrame {
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
         add(mainPanel);
 
-        cellPhoneNumber = new JLabel("Cellphone number:");
+        cellPhoneNumber = new JLabel("Cell phone number:");
         cellPhoneField = new JTextField();
         cellPhoneField.setMaximumSize(new Dimension(Integer.MAX_VALUE, cellPhoneField.getPreferredSize().height));
         cellPhoneNumberPanel = new JPanel();

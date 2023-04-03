@@ -9,7 +9,7 @@ import java.net.URISyntaxException;
 import java.awt.Desktop;
 
 public class Model {
-    private static final String ERROR_EMPTY_PHONE_NUMBER = "Please enter a cellphone number.";
+    private static final String ERROR_EMPTY_PHONE_NUMBER = "Please enter a cell phone number.";
     private static final String ERROR_PHONE_NUMBER_CONTAIN_LETTERS = "Phone number can't contain letters. Please try again.";
 
     private Gui gui;
